@@ -132,3 +132,25 @@ body {
     text-align: center;
 }
 
+@media (min-width: 768px) {
+    .ocultar-mobil {
+      display: inherit;
+    }
+  }
+  @media (max-width: 768px) {
+    .ocultar-mobil {
+      display: none;
+    }
+  
+    .noticia, .newsletter, footer {
+      width: 100%;
+    }
+    .noticia img, .newsletter img, footer img {
+      width: 100%;
+    }
+  
+    .nav, .logo, .buscar {
+      width: 48%;
+      display: inline-flex;
+    }
+  }
